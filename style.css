@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    color: #FFFFFF;
+    width: 100%;
+}
+.header_section{
+    background-image: url("img/desktop.png");
+    font-family: "Istok Web", sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.header_navigation{
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding-left: 122px;
+    padding-top: 47px;
+}
+.header_navigation_list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-top: 30px;
+    padding-left: 190px;
+    gap: 100px;
+    
+}
+.header_navigation_link{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.header_navigation_link:hover{
+    color:#D53005;
+}
+.header_block{
+    padding-top: 27px;
+    padding-left: 122px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.header_block_logo{
+    padding-top: 164px;
+    padding-right: 338px;
+    justify-content: center;
+}
+.header_block_img_logo{
+    padding-bottom: 175px;
+}
+.header_block_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    width: 290px;
+}
+.header_block_img_list{
+   display: grid;
+
+}
+.header_block_img_phone{
+   
+}
+.header_block_img_cable{
+    
+}
