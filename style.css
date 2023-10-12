@@ -1,78 +1,135 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     box-sizing: border-box;
 }
-body{
+
+body {
     flex-direction: column;
     margin: 0 auto;
-    width: 100%;
     color: #FFFFFF;
     width: 100%;
 }
-.header_section{
+
+.header_section {
     background-image: url("img/desktop.png");
-    font-family: "Istok Web", sans-serif;
+    font-family: "Istok Web";
     display: grid;
     justify-content: center;
     align-items: center;
 }
-.header_navigation{
+
+.header_navigation {
     display: flex;
     flex-wrap: wrap;
-    
     padding-left: 122px;
     padding-top: 47px;
 }
-.header_navigation_list{
+
+.header_navigation_list {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     padding-top: 30px;
     padding-left: 190px;
     gap: 100px;
-    
+
 }
-.header_navigation_link{
+
+.header_navigation_link {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
 }
-.header_navigation_link:hover{
-    color:#D53005;
+
+.header_navigation_link:hover {
+    color: #D53005;
 }
-.header_block{
+
+.header_block {
     padding-top: 27px;
     padding-left: 122px;
     display: flex;
     flex-wrap: wrap;
-  
+
 }
-.header_block_logo{
+
+.header_block_logo {
     padding-top: 164px;
     padding-right: 338px;
     justify-content: center;
 }
-.header_block_img_logo{
+
+.header_block_img_logo {
     padding-bottom: 175px;
 }
-.header_block_text{
+
+.header_block_text {
     font-weight: 400;
     font-size: 20px;
     line-height: 29px;
     width: 290px;
 }
-.header_block_img_list{
-   display: grid;
 
+.header_block_img_list {
+    display: block;
+    position: relative;
+    list-style: none;
 }
-.header_block_img_phone{
+
+.header_block_img_phone {
+    position: relative;
+    z-index: 2;
+}
+
+.header_block_img_cable {
+    position: absolute;
+    left: 48px;
+    top: 733px;
+    z-index: 1;
+}
+
+.main_section {
+    font-family: "Karla";   
    
 }
-.header_block_img_cable{
+
+.main_section_music {
+    background-color: #D53005;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 122px;
+}
+.main_section_title{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    padding-top: 83px;
+    height: 100%;
+    padding-bottom: 267px;
     
+}
+.main_section_music_button_list{
+    display: grid;
+    list-style: none;
+    gap: 88px;
+    align-items: center;
+
+    
+}
+.main_section_music_button{
+    width: 382px;
+    height:83px;
+    font-size: 40px;
+    align-items: center;
+}
+.main_section_music_img{
+    display: flex;
+    flex-wrap: wrap;
 }
